@@ -1,7 +1,6 @@
 #include "light.h"
 
 bool light::change = true; //换颜色
-bool light::stop = true;  //暂停
 light::light()
 {
 
