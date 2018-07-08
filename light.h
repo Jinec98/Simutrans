@@ -8,7 +8,6 @@ public:
     int direct;
     bool red = true, yellow = false, green = false;
     static bool change; //换颜色
-    static bool stop;  //暂停
     light();
     light(int, int, int);
     void toYellow();
